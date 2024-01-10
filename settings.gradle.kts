@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Retrofit"
+rootProject.name = "Nasa APOD Viewer"
 include(":app")
