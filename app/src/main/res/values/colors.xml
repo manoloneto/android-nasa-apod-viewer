@@ -3,12 +3,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <!-- App colors -->
-    <color name="colorPrimary">#5d55fa</color>
-    <color name="colorPrimaryVariant">#44318d</color>
-    <color name="colorOnPrimary">#ffffff</color>
+    <color name="purple_500">#5d55fa</color>
+    <color name="purple_700">#44318d</color>
 
-    <color name="colorSecondary">#17c3b2</color>
-    <color name="colorSecondaryVariant">#059a82</color>
-    <color name="colorOnSecondary">#ffffff</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
 </resources>

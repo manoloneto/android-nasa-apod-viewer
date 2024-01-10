@@ -1,15 +1,28 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+    <!-- Base application theme using Material 3. -->
     <style name="Base.Theme.Napod" parent="Theme.Material3.DayNight">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
-        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryContainer">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/colorSecondary</item>
-        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
-        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryContainer">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">@color/colorPrimaryVariant</item>
+        <item name="android:statusBarColor">@color/purple_700</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- ActionBar title text color -->
+        <item name="android:actionBarStyle">@style/Theme.Napod.ActionBar</item>
+    </style>
+
+    <style name="Theme.Napod" parent="Base.Theme.Napod" />
+
+    <style name="Theme.Napod.ActionBar" parent="Widget.Material3.ActionBar.Solid">
+        <item name="android:titleTextStyle">@style/Theme.Napod.ActionBar.TitleText</item>
+    </style>
+
+    <style name="Theme.Napod.ActionBar.TitleText" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:textColor">@color/white</item>
     </style>
 </resources>
